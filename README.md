@@ -2,6 +2,10 @@
 
 This library automatically fills the definition() method in the factory based on DB columns
 
+> The library is unlikely to generate all the fields for your model. The entities are very different, 
+you will most likely have to edit some fields manually. It is just an attempt to simplify the routine process. 
+I will be glad for additions to FakerMapper
+
 ## Install
 
 ```bash
