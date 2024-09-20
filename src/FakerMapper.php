@@ -86,11 +86,11 @@ class FakerMapper
         }
 
         if (str_contains($type, 'int')) {
-            return 'randomNumber';
+            return 'randomNumber()';
         }
 
         if (str_contains($type, 'float') || str_contains($type, 'double')) {
-            return 'randomFloat';
+            return 'randomFloat()';
         }
 
         return null;
