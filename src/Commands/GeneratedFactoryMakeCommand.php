@@ -8,7 +8,7 @@ use Ercogx\FactoryGeneratorLaravel\FakerMapper;
 
 class GeneratedFactoryMakeCommand extends FactoryMakeCommand
 {
-    protected $signature = 'make:generate-factory {name} {--model}';
+    protected $signature = 'make:generate-factory {name} {--model=}';
 
     protected $description = 'Create a new model factory with an attempt to generate a field faker';
 
