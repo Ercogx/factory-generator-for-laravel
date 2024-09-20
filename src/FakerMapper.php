@@ -112,6 +112,7 @@ class FakerMapper
             'user_name',
             'password',
             'url',
+            'timezone',
             'slug',
             'ipv4',
             'ipv6',
